@@ -8,9 +8,10 @@ import store from './Redux/store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+//Configuracion para uso de Redux "store={store}"
 root.render(
   <React.StrictMode>
-    //Configuracion para uso de Redux
+    
     <Provider store={store}>
       <App />
     </Provider>
