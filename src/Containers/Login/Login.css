@@ -180,7 +180,11 @@
     bottom: 258px;
 }
 
-.emailInput {}
+.emailInput {
+
+    background: #171717;
+    border-radius: 8px;
+}
 
 .inputEmail {
 

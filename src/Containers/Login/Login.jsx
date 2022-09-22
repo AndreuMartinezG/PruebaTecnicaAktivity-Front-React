@@ -50,7 +50,7 @@ const Login = (props) => {
                         </div>
                         <div className="passwordInput">
                             <input className="inputPassword" placeholder="Password" type="password" />
-                            <div className="hideTXT">Hide</div>
+                            <div className="hideTXT"></div>
                         </div>
                         <div className="troubleSignIn">Having trouble in sign in?</div>
                         <div className="signIn">

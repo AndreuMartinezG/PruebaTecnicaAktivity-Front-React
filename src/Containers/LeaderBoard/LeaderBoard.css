@@ -1,0 +1,283 @@
+/* ///////////////////////////////////// */
+
+/* APARTADO PARA EL HEADER DE LA PAGINA */
+
+/* ///////////////////////////////////// */
+
+.designLeaderBoard {
+
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #262626;
+}
+
+.designHeaderLeader {
+
+    position: absolute;
+    width: 1440px;
+    height: 88px;
+    left: 0px;
+    top: 0px;
+
+    background: #171717;
+}
+
+.menuHeaderLeader {
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 160px;
+    top: 36px;
+
+    background: #D9D9D9;
+    /* background-image: url('../../Img/');
+    background-size: contain; */
+}
+
+.logoHeaderLeader {
+
+    position: absolute;
+    width: 110.15px;
+    height: 24px;
+    left: 665px;
+    top: 36px;
+
+    background-image: url('../../Img/logo.png');
+    background-size: contain;
+}
+
+.lenguageHeaderLeader {
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 371px;
+    top: 36px;
+    bottom: 28px;
+
+    background-image: url('../../Img/lang_selector.svg');
+    background-size: cover;
+}
+
+.profileImgHeaderLeader {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1119px;
+    top: 36px;
+    bottom: 28px;
+    right: 297px;
+
+    background-image: url('../../Img/john-smith.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #A3A3A3;
+    border-radius: 50%;
+}
+
+.profileHeaderLeader {
+
+    position: absolute;
+    width: 80px;
+    height: 17px;
+    left: 1151px;
+    top: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F5F5F5;
+}
+
+.logoutHeaderLeader {
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1264px;
+    top: 36px;
+
+    background-image: url('../../Img/logout-icon.svg');
+    background-size: cover;
+}
+
+
+
+/* ///////////////////////////////////// */
+
+/* APARTADO PARA EL BODY DE LA PAGINA */
+
+/* ///////////////////////////////////// */
+
+/* .leaderBoardHeader {
+
+    
+} */
+
+.leaderBoardHeaderBG {
+
+    position: absolute;
+    width: 1136px;
+    height: 32px;
+    left: 152px;
+    top: 138px;
+    background: #171717;
+
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    -ms-transform: skew(-10deg);
+    -o-transform: skew(-10deg);
+    transform: skew(-10deg);
+}
+
+.rankTitle {
+
+    position: absolute;
+    width: 28px;
+    height: 12px;
+    left: 177px;
+    top: 148px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D4D4D4;
+}
+
+.evolutionTitle {
+
+    position: absolute;
+    width: 59px;
+    height: 12px;
+    left: 263px;
+    top: 148px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D4D4D4;
+}
+
+.avatarTitle {
+
+    position: absolute;
+    width: 39px;
+    height: 12px;
+    left: 374px;
+    top: 148px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D4D4D4;
+}
+
+.aktiverTitle {
+
+    position: absolute;
+    width: 90px;
+    height: 12px;
+    left: 466px;
+    top: 148px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #D4D4D4;
+}
+
+.eventsTitle {
+
+    position: absolute;
+    width: 67px;
+    height: 12px;
+    left: 784px;
+    top: 148px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D4D4D4;
+}
+
+.trophiesTitle {
+
+    position: absolute;
+    width: 67px;
+    height: 12px;
+    left: 879px;
+    top: 148px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D4D4D4;
+}
+
+.timeSpentTitle {
+
+    position: absolute;
+    width: 60px;
+    height: 12px;
+    left: 989px;
+    top: 148px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D4D4D4;
+}
+
+.pointsTitle {
+
+    position: absolute;
+    width: 38px;
+    height: 12px;
+    left: 1129px;
+    top: 148px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D4D4D4;
+}
