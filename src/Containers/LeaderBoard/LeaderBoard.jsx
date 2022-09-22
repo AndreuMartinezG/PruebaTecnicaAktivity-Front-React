@@ -21,7 +21,9 @@ const LeaderBoard = (props) => {
  
  
     return (
-        <div className='designLeaderBoard'></div>
+        <div className='designLeaderBoard'>
+            
+        </div>
     )
 }
 export default connect((state) => ({ 

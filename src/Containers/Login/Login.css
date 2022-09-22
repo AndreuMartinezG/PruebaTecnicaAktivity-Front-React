@@ -180,8 +180,7 @@
     bottom: 258px;
 }
 
-.emailInput {
-}
+.emailInput {}
 
 .inputEmail {
 
@@ -244,6 +243,28 @@
     line-height: 17px;
 
     box-sizing: border-box;
+    cursor: pointer;
+}
+
+.hideTXT {
+
+    position: absolute;
+    width: 23px;
+    height: 12px;
+    left: 361px;
+    top: 24px;
+    bottom: 18px;
+    right: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: right;
+    color: #D4D4D4;
+
+    cursor: pointer;
 }
 
 .troubleSignIn {
@@ -508,4 +529,5 @@
 
     background-image: url('../../Img/background-img-gym.jpg');
     background-size: contain;
+    background-repeat: no-repeat;
 }

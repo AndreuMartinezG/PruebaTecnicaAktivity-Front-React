@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 //Importamos los diferentes componentes:
 
 import Login from './Containers/Login/Login';
+import LeaderBoard from './Containers/LeaderBoard/LeaderBoard';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
 
 
           <Route path={'/'} element={<Login />} />
+          <Route path={'/leaderboard'} element={<LeaderBoard />} />
 
 
         </Routes>
