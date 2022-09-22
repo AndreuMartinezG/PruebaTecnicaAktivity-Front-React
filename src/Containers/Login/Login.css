@@ -1,60 +1,511 @@
-/* .designLogin {
+@import url('https://rsms.me/inter/inter.css');
 
-    background-color: beige;
-    
-    height: 26.1em;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.loginButton {
-    width: 9em;
-    height: 3em;
-
-    color: white;
-
-    transition: 0.3s;
-    background-color: green;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin-top: 2em;
-
-    cursor: pointer;
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Inter var', sans-serif;
+    }
 }
 
 .app {
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 85.2vh;
-    background-image: url('../../img/Portada_Tunel_Viento.jpg');
-    background-position: 50% 180%;
-    background-repeat: no-repeat;
+
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #262626;
 }
 
-input.error {
-    border-color: red;
-}
-  
-  
-.input-feedback {
-    color: red;
-    height: 5px;
+
+.header {
+
+    position: absolute;
+    width: 1136px;
+    height: 40px;
+    left: 152px;
+    top: 26px;
 }
 
-.checkIzq {
-    float: left;
+.logo {
+
+    position: absolute;
+    width: 110.15px;
+    height: 24px;
+    bottom: 6px;
+    top: 10px;
+    right: 1025.85px;
+
+    background-image: url('../../Img/logo.png');
+    background-size: contain;
+    cursor: pointer;
+}
+
+.languageSelector {
+
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 12.5px;
+    bottom: 8.5px;
+    left: 770.5px;
+    right: 346.5px;
+
+    background-image: url('../../Img/lang_selector.svg');
+    background-size: contain;
+    cursor: pointer;
+}
+
+.signUpBTN {
+
+    position: absolute;
+    width: 138px;
+    height: 17px;
+    left: 808px;
+    top: 12px;
+    bottom: 11px;
+    right: 190px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #F5F5F5;
+    cursor: pointer;
+}
+
+.requestDemoBTN {
+
+    position: absolute;
+    width: 176px;
+    height: 40px;
+    left: 960px;
+
+    background: #FCA704;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.requestDemoTXT {
+
+    position: absolute;
+    width: 176px;
+    height: 17px;
+    top: 12px;
+    bottom: 11px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #262626;
+    cursor: pointer;
+}
+
+.loginBox {
+
+    position: absolute;
+    width: 560px;
+    height: 779px;
+    left: 440px;
+    top: 143px;
+
+}
+
+.box {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 560px;
+    height: 738px;
+    bottom: 41px;
+
+    background: #262626;
+    border: 1px solid #525252;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.5);
+    border-radius: 24px;
+}
+
+.mainTitle {
+
+    position: absolute;
+    width: 400px;
+    height: 39px;
+    left: 80px;
+    top: 80px;
+    right: 80px;
+    bottom: 660px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FCA704;
+}
+
+.welcomeMsg {
+
+    position: absolute;
+    width: 400px;
+    height: 38px;
+    left: 80px;
+    right: 80px;
+    top: 155px;
+    bottom: 586px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    line-height: 100%;
+    text-align: center;
+    text-indent: 15px;
+    vertical-align: top;
+    color: #E5E5E5;
 }
 
 .loginForm {
-    padding: 1em;
-    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+
+    position: absolute;
+    width: 400px;
+    height: 251px;
+    left: 80px;
+    right: 80px;
+    top: 229px;
+    bottom: 258px;
+}
+
+.emailInput {
+}
+
+.inputEmail {
+
+    position: absolute;
+    width: 400px;
+    height: 54px;
+    bottom: 197px;
+    top: 0px;
+    padding-left: 16px;
+
+    background: #171717;
+    border-radius: 8px;
+    border: 5px;
+    border-color: red;
+    color: #D4D4D4;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+/* .inputEmail:hover, .emailInput:hover, .inputEmail:focus {
+
+    border: 5px !important;
 } */
+
+.passwordInput {
+
+    position: absolute;
+    width: 400px;
+    height: 54px;
+    top: 70px;
+    bottom: 127px;
+
+    background: #171717;
+    border-radius: 8px;
+}
+
+.inputPassword {
+
+    position: absolute;
+    width: 400px;
+    height: 54px;
+    top: 0px;
+    bottom: 127px;
+    padding-left: 16px;
+    border: 0;
+
+    background: #171717;
+    border-radius: 8px;
+    color: #D4D4D4;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    box-sizing: border-box;
+}
+
+.troubleSignIn {
+
+    position: absolute;
+    width: 168px;
+    height: 17px;
+    right: 232px;
+    top: 148px;
+    bottom: 86px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #D4D4D4;
+}
+
+.signIn {
+
+    position: absolute;
+    width: 400px;
+    height: 54px;
+    top: 197px;
+
+    background: #FCA704;
+    border-radius: 8px;
+}
+
+.signInTXT {
+
+    position: absolute;
+    width: 208px;
+    height: 17px;
+    left: 96px;
+    right: 96px;
+    top: 19px;
+    bottom: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #262626;
+}
+
+.altSignInOptions {
+
+    position: absolute;
+    width: 400px;
+    height: 89px;
+    left: 80px;
+    right: 80px;
+    top: 528px;
+    bottom: 121px;
+}
+
+.altSignInTitle {
+
+    position: absolute;
+    width: 98px;
+    height: 17px;
+    left: 151px;
+    right: 151px;
+    bottom: 72px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #D4D4D4;
+}
+
+.facebookBTN {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 123px;
+    height: 48px;
+    left: 277px;
+    top: 41px;
+
+    border: 1px solid #525252;
+    border-radius: 4px;
+}
+
+.facebookIcon {
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 14px;
+    right: 85px;
+    top: 12px;
+    bottom: 12px;
+
+    background-image: url('../../Img/facebook-logo.svg');
+    background-size: contain;
+}
+
+.facebookTXT {
+
+    position: absolute;
+    width: 67px;
+    height: 17px;
+    left: 42px;
+    right: 14px;
+    top: 16px;
+    bottom: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #D4D4D4;
+}
+
+.appleBTN {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 122px;
+    height: 48px;
+    left: 139px;
+    right: 139px;
+    top: 41px;
+
+    border: 1px solid #525252;
+    border-radius: 4px;
+}
+
+.appleIcon {
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 27px;
+    right: 71px;
+    top: 13px;
+    bottom: 11px;
+
+    background-image: url('../../Img/apple-logo.svg');
+    background-size: contain;
+}
+
+.appleTXT {
+
+    position: absolute;
+    width: 40px;
+    height: 17px;
+    left: 55px;
+    right: 27px;
+    top: 16px;
+    bottom: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #D4D4D4;
+}
+
+.googleBTN {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 123px;
+    height: 48px;
+    right: 277px;
+    top: 41px;
+
+    border: 1px solid #525252;
+    border-radius: 4px;
+}
+
+.googleIcon {
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 23px;
+    right: 76px;
+    top: 12px;
+    bottom: 12px;
+
+    background-image: url('../../Img/google-logo.svg');
+    background-size: contain;
+}
+
+.googleTXT {
+
+    position: absolute;
+    width: 49px;
+    height: 17px;
+    left: 51px;
+    right: 23px;
+    top: 16px;
+    bottom: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #D4D4D4;
+}
+
+.dontHaveAcc {
+
+    position: absolute;
+    width: 245px;
+    height: 17px;
+    left: 158px;
+    right: 157px;
+    top: 641px;
+    bottom: 80px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #D4D4D4;
+}
+
+.copyright {
+
+    position: absolute;
+    width: 280px;
+    height: 17px;
+    left: 140px;
+    right: 140px;
+    top: 762px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #737373;
+}
+
+.backgroundClass {
+
+    position: absolute;
+    width: 1440px;
+    height: 1079px;
+    left: 0px;
+    top: 0px;
+
+    background-image: url('../../Img/background-img-gym.jpg');
+    background-size: contain;
+}
