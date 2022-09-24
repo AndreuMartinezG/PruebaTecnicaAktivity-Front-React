@@ -78,6 +78,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
     border: 1px solid #A3A3A3;
     border-radius: 50%;
 }
@@ -95,6 +96,7 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
+
     color: #F5F5F5;
 }
 
@@ -118,25 +120,24 @@
 
 /* ///////////////////////////////////// */
 
-/* .leaderBoardHeader {
 
-    
-} */
+/* LEADERBOARD HEADER */
 
 .leaderBoardHeaderBG {
 
     position: absolute;
-    width: 1136px;
+    width: 1140px;
     height: 32px;
     left: 152px;
     top: 138px;
-    background: #171717;
 
-    -webkit-transform: skew(-10deg);
-    -moz-transform: skew(-10deg);
-    -ms-transform: skew(-10deg);
-    -o-transform: skew(-10deg);
-    transform: skew(-10deg);
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+
+    background: #171717;
 }
 
 .rankTitle {
@@ -154,6 +155,7 @@
     line-height: 12px;
     text-align: center;
     text-transform: uppercase;
+
     color: #D4D4D4;
 }
 
@@ -172,6 +174,7 @@
     line-height: 12px;
     text-align: center;
     text-transform: uppercase;
+
     color: #D4D4D4;
 }
 
@@ -190,6 +193,7 @@
     line-height: 12px;
     text-align: center;
     text-transform: uppercase;
+
     color: #D4D4D4;
 }
 
@@ -207,6 +211,7 @@
     font-size: 10px;
     line-height: 12px;
     text-transform: uppercase;
+
     color: #D4D4D4;
 }
 
@@ -225,6 +230,7 @@
     line-height: 12px;
     text-align: center;
     text-transform: uppercase;
+
     color: #D4D4D4;
 }
 
@@ -243,6 +249,7 @@
     line-height: 12px;
     text-align: center;
     text-transform: uppercase;
+
     color: #D4D4D4;
 }
 
@@ -261,6 +268,7 @@
     line-height: 12px;
     text-align: center;
     text-transform: uppercase;
+
     color: #D4D4D4;
 }
 
@@ -279,5 +287,567 @@
     line-height: 12px;
     text-align: center;
     text-transform: uppercase;
+
     color: #D4D4D4;
 }
+
+
+/* LEADERBOARD RANKERS  ROW 1 - 10 */
+
+/* /////////////////////// ROW 1 /////////////////////// */
+
+.leaderBoardRow1BG {
+
+    position: absolute;
+    width: 1136px;
+    height: 56px;
+    left: 152px;
+    top: 191px;
+
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+
+    background: #404040;
+}
+
+.boardRank1BG {
+
+    position: absolute;
+    width: 75px;
+    height: 56px;
+    left: 152px;
+    top: 191px;
+
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+
+    background: #171717;
+}
+
+.boardRank1TXT {
+
+    position: absolute;
+    width: 32px;
+    height: 29px;
+    left: 175px;
+    top: 205px;
+    right: 1233px;
+    bottom: 790px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.boardRank1Evolution {
+
+    position: absolute;
+    width: 16px;
+    height: 28px;
+    left: 285px;
+    top: 205px;
+}
+
+.boardRank1EvolutionIMG {
+
+    width: 16px;
+    height: 16px;
+    top: 205px;
+    bottom: 803px;
+    left: 285px;
+    right: 1139px;
+
+    background-image: url('../../Img/leaderboard-up-arrow.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.boardRank1EvolutionTXT {
+
+    position: absolute;
+    left: 0%;
+    right: 12.5%;
+    top: 46.43%;
+    bottom: 0%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.boardRank1Avatar {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 362px;
+    top: 187px;
+
+    background: url('../../Img/samantha-smith.jfif'), #676464;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #A3A3A3;
+    border-radius: 50%;
+}
+
+.boardRank1AktiverTXT {
+
+    position: absolute;
+    width: 44px;
+    height: 10px;
+    left: 485px;
+    top: 223px;
+    bottom: 791px;
+    right: 911px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+
+    color: #FFFFFF;
+}
+
+.boardRank1AktiverFlag {
+
+    position: absolute;
+    height: 13.333333969116211px;
+    width: 18.75px;
+    top: 221.33px;
+    bottom: 789.33px;
+    right: 957.11px;
+    left: 464.14px;
+
+    background: url('../../Img/flag-uk.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.boardRank1AktiverName {
+
+    position: absolute;
+    width: 236px;
+    height: 19px;
+    left: 466px;
+    top: 203px;
+    bottom: 802px;
+    right: 738px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.boardRank1Events {
+
+    position: absolute;
+    width: 76px;
+    height: 32px;
+    left: 780px;
+    top: 210px;
+    right: 584px;
+    bottom: 789px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.boardRank1Trophies {
+
+    position: absolute;
+    width: 76px;
+    height: 32px;
+    left: 875px;
+    top: 210px;
+    right: 489px;
+    bottom: 789px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.boardRank1TimeSpent {
+
+    position: absolute;
+    width: 106px;
+    height: 32px;
+    left: 966px;
+    top: 210px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.boardRank1PointsBG {
+
+    position: absolute;
+    width: 96px;
+    height: 32px;
+    left: 1100px;
+    top: 203px;
+
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+
+    background: #FCA704;
+}
+
+.boardRank1PointsTXT {
+
+    position: absolute;
+    width: 88px;
+    height: 32px;
+    left: 1104px;
+    top: 207px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+
+    color: #404040;
+}
+
+.boardRank1ViewProfile {
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1232px;
+    top: 207px;
+
+    background: url('../../Img/arrow-right-icon.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+/* /////////////////////// ROW 2 /////////////////////// */
+
+
+.leaderBoardRow2BG {
+
+    position: absolute;
+    width: 1136px;
+    height: 56px;
+    left: 152px;
+    top: 271px;
+
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+
+    background: #404040;
+}
+
+.boardRank2BG {
+
+    position: absolute;
+    width: 75px;
+    height: 56px;
+    left: 152px;
+    top: 271px;
+
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+
+    background: #171717;
+}
+
+.boardRank2TXT {
+
+    position: absolute;
+    width: 32px;
+    height: 29px;
+    left: 175px;
+    top: 285px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.boardRank2EvolutionIMG {
+
+    position: absolute;
+    left: 285px;
+    right: 1139px;
+    top: 297px;
+    bottom: 711px;
+
+    background-image: url('../../Img/leaderboard-down-arrow.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.boardRank2EvolutionTXT {
+
+    position: absolute;
+    left: 286px;
+    right: 1142px;
+    top: 282px;
+    bottom: 727px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.boardRank2Avatar {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 362px;
+    right: 1014px;
+    top: 267px;
+    bottom: 693px;
+
+    background: url('../../Img/jane-taylor.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border: 1px solid #A3A3A3;
+    border-radius: 50%;
+}
+
+.boardRank2AktiverTXT {
+
+    position: absolute;
+    width: 35px;
+    height: 10px;
+    left: 485px;
+    top: 303px;
+    bottom: 711px;
+    right: 920px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+
+    color: #FFFFFF;
+}
+
+.boardRank2AktiverFlag {
+
+    position: absolute;
+    height: 13.333333969116211px;
+    width: 18.75px;
+    left: 464.14px;
+    top: 301.33px;
+    bottom: 709.33px;
+    right: 957.11px;
+
+    background: url('../../Img/flag-uk.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.boardRank2AktiverName {
+
+    position: absolute;
+    width: 236px;
+    height: 19px;
+    left: 466px;
+    top: 283px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.boardRank2Events {
+
+    position: absolute;
+    width: 76px;
+    height: 32px;
+    left: 780px;
+    top: 290px;
+    bottom: 709px;
+    right: 584px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.boardRank2Trophies {
+
+    position: absolute;
+    width: 76px;
+    height: 32px;
+    left: 875px;
+    top: 290px;
+    bottom: 709px;
+    right: 489px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.boardRank2TimeSpent {
+
+    position: absolute;
+    width: 106px;
+    height: 32px;
+    left: 966px;
+    top: 290px;
+    bottom: 709px;
+    right: 368px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.boardRank2PointsBG {
+
+    position: absolute;
+    width: 96px;
+    height: 32px;
+    left: 1100px;
+    top: 283px;
+
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+
+    background: #FCA704;
+}
+
+.boardRank2PointsTXT {
+
+    position: absolute;
+    width: 88px;
+    height: 32px;
+    left: 1104px;
+    top: 287px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+
+    color: #404040;
+}
+
+.boardRank2ViewProfile {
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1232px;
+    top: 287px;
+
+    background: url('../../Img/arrow-right-icon.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* /////////////////////// ROW 3 /////////////////////// */
+
+
