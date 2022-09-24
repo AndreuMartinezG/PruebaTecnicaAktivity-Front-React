@@ -2409,3 +2409,252 @@
 
 
 /* /////////////////////// ROW 9 /////////////////////// */
+
+
+.leaderBoardRow9BG {
+
+    position: absolute;
+    width: 1136px;
+    height: 56px;
+    left: 152px;
+    top: 831px;
+
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+
+    background: #404040;
+}
+
+.boardRank9BG {
+
+    position: absolute;
+    width: 75px;
+    height: 56px;
+    left: 152px;
+    top: 831px;
+
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+
+    background: #171717;
+}
+
+.boardRank9TXT {
+
+    position: absolute;
+    width: 32px;
+    height: 29px;
+    left: 175px;
+    top: 845px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.boardRank9EvolutionTXT {
+
+    position: absolute;
+    left: 285px;
+    right: 1141px;
+    top: 845px;
+    bottom: 151px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.boardRank9Avatar {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 362px;
+    top: 827px;
+
+    background: url('../../Img/chris-martin.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 50%;
+    border: 1px solid #A3A3A3;
+}
+
+.boardRank9AktiverTXT {
+
+    position: absolute;
+    width: 25px;
+    height: 10px;
+    left: 485px;
+    top: 863px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+
+    color: #FFFFFF;
+}
+
+.boardRank9AktiverFlag {
+
+    position: absolute;
+    height: 13.333333969116211px;
+    width: 18.75px;
+    left: 464.14px;
+    right: 957.11px;
+    top: 861.33px;
+    bottom: 149.33px;
+
+    background-image: url('../../Img/flag-uk.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.boardRank9AktiverName {
+
+    position: absolute;
+    width: 236px;
+    height: 19px;
+    left: 466px;
+    top: 843px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.boardRank9Events {
+
+    position: absolute;
+    width: 76px;
+    height: 32px;
+    left: 780px;
+    top: 850px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.boardRank9Trophies {
+
+    position: absolute;
+    width: 76px;
+    height: 32px;
+    left: 875px;
+    top: 850px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.boardRank9TimeSpent {
+
+    position: absolute;
+    width: 106px;
+    height: 32px;
+    left: 966px;
+    top: 850px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.boardRank9PointsBG {
+
+    position: absolute;
+    width: 96px;
+    height: 32px;
+    left: 1100px;
+    top: 843px;
+
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+
+    background: #FCA704;
+}
+
+.boardRank9PointsTXT {
+
+    position: absolute;
+    width: 88px;
+    height: 32px;
+    left: 1104px;
+    top: 847px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+
+    color: #404040;
+}
+
+.boardRank10ViewProfile {
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1232px;
+    top: 847px;
+
+    background: url('../../Img/arrow-right-icon.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
