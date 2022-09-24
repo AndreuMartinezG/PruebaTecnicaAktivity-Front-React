@@ -851,3 +851,253 @@
 /* /////////////////////// ROW 3 /////////////////////// */
 
 
+.leaderBoardRow3BG {
+
+    position: absolute;
+    width: 1136px;
+    height: 56px;
+    left: 152px;
+    top: 351px;
+
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+
+    background: #404040;
+}
+
+.boardRank3BG {
+
+    position: absolute;
+    width: 79px;
+    height: 56px;
+    left: 152px;
+    top: 351px;
+
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+
+    background: #171717;
+}
+
+.boardRank3TXT {
+
+    position: absolute;
+    width: 32px;
+    height: 29px;
+    left: 175px;
+    top: 365px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.boardRank3EvolutionTXT {
+
+    position: absolute;
+    left: 285px;
+    right: 1141px;
+    top: 372px;
+    bottom: 631px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.boardRank3Avatar {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 362px;
+    top: 347px;
+
+    background: url('../../Img/james-jones.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 50%;
+    border: 1px solid #A3A3A3;
+}
+
+.boardRank3AktiverTXT {
+
+    position: absolute;
+    width: 56px;
+    height: 10px;
+    left: 485px;
+    top: 383px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+
+
+    color: #FFFFFF;
+}
+
+.boardRank3AktiverFlag {
+
+    position: absolute;
+
+    height: 13.333333969116211px;
+    width: 18.75px;
+    left: 464.14px;
+    top: 381.33px;
+    bottom: 629.33px;
+    right: 957.11px;
+
+    background-image: url('../../Img/flag-uk.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.boardRank3AktiverName {
+
+    position: absolute;
+    width: 236px;
+    height: 19px;
+    left: 466px;
+    top: 363px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.boardRank3Events {
+
+
+    position: absolute;
+    width: 76px;
+    height: 32px;
+    left: 780px;
+    top: 370px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.boardRank3Trophies {
+
+    position: absolute;
+    width: 76px;
+    height: 32px;
+    left: 875px;
+    top: 370px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.boardRank3TimeSpent {
+
+    position: absolute;
+    width: 106px;
+    height: 32px;
+    left: 966px;
+    top: 370px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.boardRank3PointsBG {
+
+    position: absolute;
+    width: 96px;
+    height: 32px;
+    left: 1100px;
+    top: 363px;
+
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+
+    background: #FCA704;
+}
+
+.boardRank3PointsTXT {
+
+    position: absolute;
+    width: 88px;
+    height: 32px;
+    left: 1104px;
+    top: 367px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+
+    color: #404040;
+}
+
+.boardRank3ViewProfile {
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1232px;
+    top: 367px;
+
+    background: url('../../Img/arrow-right-icon.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
