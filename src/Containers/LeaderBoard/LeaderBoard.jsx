@@ -330,6 +330,9 @@ const LeaderBoard = (props) => {
             </div>
         </div>
     )
+
+    //conect to mongo db?
+    
 }
 export default connect((state) => ({
     //variables de rdx a crear
