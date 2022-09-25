@@ -71,6 +71,16 @@
     text-align: center;
     color: #F5F5F5;
     cursor: pointer;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.signUpBTN:active {
+
+    color: #FCA704;
 }
 
 .requestDemoBTN {
@@ -83,6 +93,12 @@
     background: #FCA704;
     border-radius: 8px;
     cursor: pointer;
+}
+
+.requestDemoBTN:active {
+
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
 }
 
 .requestDemoTXT {
@@ -101,6 +117,11 @@
     text-align: center;
     color: #262626;
     cursor: pointer;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .loginBox {
@@ -145,6 +166,11 @@
     line-height: 39px;
     text-align: center;
     color: #FCA704;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .welcomeMsg {
@@ -167,6 +193,11 @@
     text-indent: 15px;
     vertical-align: top;
     color: #E5E5E5;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .loginForm {
@@ -286,6 +317,18 @@
     font-size: 14px;
     line-height: 17px;
     color: #D4D4D4;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    cursor: pointer;
+}
+
+.troubleSignIn:active {
+
+    color: #FCA704;
 }
 
 .signIn {
@@ -297,7 +340,26 @@
 
     background: #FCA704;
     border-radius: 8px;
+    cursor: pointer;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
+
+/* .signIn:hover {
+
+    background: #fca504e0;
+
+} */
+
+.signIn:active {
+
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+
 
 .signInTXT {
 
@@ -316,6 +378,7 @@
     line-height: 17px;
     text-align: center;
     color: #262626;
+
 }
 
 .altSignInOptions {
@@ -345,6 +408,11 @@
     line-height: 17px;
     text-align: center;
     color: #D4D4D4;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .facebookBTN {
@@ -359,6 +427,18 @@
 
     border: 1px solid #525252;
     border-radius: 4px;
+
+    cursor: pointer;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.facebookBTN:active {
+
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .facebookIcon {
@@ -406,7 +486,21 @@
 
     border: 1px solid #525252;
     border-radius: 4px;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    cursor: pointer;
 }
+
+.appleBTN:active {
+
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+
 
 .appleIcon {
 
@@ -452,6 +546,18 @@
 
     border: 1px solid #525252;
     border-radius: 4px;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    cursor: pointer;
+}
+
+.googleBTN:active {
+
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .googleIcon {
@@ -503,6 +609,21 @@
     line-height: 17px;
     text-align: center;
     color: #D4D4D4;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.SingUpNow {
+
+    cursor: pointer;
+}
+
+.SingUpNow:active {
+
+    color: #FCA704;
 }
 
 .copyright {

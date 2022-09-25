@@ -50,7 +50,7 @@ const Login = (props) => {
                         </div>
                         <div className="passwordInput">
                             <input className="inputPassword" placeholder="Password" type="password" />
-                            <div className="hideTXT"></div>
+                            <div className="hideTXT">Hide</div>
                         </div>
                         <div className="troubleSignIn">Having trouble in sign in?</div>
                         <div className="signIn">
@@ -72,7 +72,7 @@ const Login = (props) => {
                             <div className="googleTXT">Google</div>
                         </div>
                     </div>
-                    <div className="dontHaveAcc">Don’t have an account? Sign up Now</div>
+                    <div className="dontHaveAcc">Don’t have an account? <span className="SingUpNow"> Sign up Now</span></div>
                 </div>
                 <div className="copyright">Copyright Aktivity 2022 | Privacy Policy</div>
             </div>
