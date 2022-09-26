@@ -300,6 +300,16 @@
     color: #D4D4D4;
 
     cursor: pointer;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.hideTXT:active {
+
+    color: #FCA704;
 }
 
 .troubleSignIn {

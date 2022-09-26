@@ -4,24 +4,66 @@ import axios from 'axios'
 
 //Conexión con los Datos almacenados en REDUX
 import { connect } from 'react-redux'
+import { LOGIN } from '../../Redux/types';
 
 import './Login.css'
 
 const Login = (props) => {
 
+
     let navigate = useNavigate();
 
-    useEffect(() => {
-        //UseEffect equivalente a componentDidMount (montado)
+    const [userData, setUserData] = useState({ email: "", password: "" });
 
-    }, [])
 
     useEffect(() => {
-        //UseEffect equivalente a componentDidUpdate (actualizado)
-        // if (props.credentials?.token) {
-        //     navigate("/deskboard");
-        // }
-    })
+        if (props.isLoggedIn) {
+            navigate('/');
+        }
+    }, []);
+
+
+    const introduceData = (e) => {
+
+        setUserData({ ...userData, [e.target.name]: e.target.value })
+
+    };
+
+    const login = async () => {
+        try {
+
+            let body = {
+                email: userData.email,
+                password: userData.password
+            }
+
+            let resultado = await axios.post("http://127.0.0.1:3001/usuarios/login", body);
+
+            //Cambiamos el valor del hook credenciales, por lo tanto se recargará el componente
+            if (resultado.data === "Usuario o contraseña inválido") {
+                alert("Usuario o Contraseña inválido")
+            } else {
+
+                //Guardaríamos los datos en redux...
+
+                props.dispatch({ type: LOGIN, payload: resultado.data });
+
+                // Si el login es correcto navegamos a la siguiente ventana
+
+                setTimeout(() => {
+                    navigate("/leaderboard");
+                }, 500);
+            }
+
+
+        } catch (error) {
+
+            alert("Usuario o Contraseña inválido")
+            console.log(error.response)
+
+        }
+
+    }
 
 
     return (
@@ -46,14 +88,14 @@ const Login = (props) => {
                     <div className="welcomeMsg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                     <div className="loginForm">
                         <div className="emailInput">
-                            <input className="inputEmail" placeholder="Enter your email" type="text" />
+                            <input className="inputEmail" name="email" placeholder="Enter your email" type="text" onChange={(e) => { introduceData(e) }} />
                         </div>
                         <div className="passwordInput">
-                            <input className="inputPassword" placeholder="Password" type="password" />
+                            <input className="inputPassword" name="password" placeholder="Password" type="password" onChange={(e) => { introduceData(e) }} />
                             <div className="hideTXT">Hide</div>
                         </div>
                         <div className="troubleSignIn">Having trouble in sign in?</div>
-                        <div className="signIn">
+                        <div className="signIn" onClick={() => login()}>
                             <div className="signInTXT">Sign in</div>
                         </div>
                     </div>
@@ -82,6 +124,6 @@ const Login = (props) => {
 
 
 export default connect((state) => ({
-    // credentials: state.credentials
+    credentials: state.credentials
 }))(Login);
 

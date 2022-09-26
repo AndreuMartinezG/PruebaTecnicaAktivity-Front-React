@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom'
 import { connect } from 'react-redux'
+import { LOGOUT } from "../../Redux/types";
 
 import './LeaderBoard.css'
 
@@ -19,6 +20,18 @@ const LeaderBoard = (props) => {
 
     },)
 
+    const navegar = (lugar) => {
+        setTimeout(() => {
+            navigate(lugar);
+        }, 200);
+    }
+
+    const logout = () => {
+        navegar("/");
+        props.dispatch({ type: LOGOUT });
+
+    }
+
 
     return (
         <div className='designLeaderBoard'>
@@ -28,7 +41,7 @@ const LeaderBoard = (props) => {
                 <div className="lenguageHeaderLeader"></div>
                 <div className="profileImgHeaderLeader"></div>
                 <div className="profileHeaderLeader">John Smith</div>
-                <div className="logoutHeaderLeader"></div>
+                <div className="logoutHeaderLeader" onClick={() => logout()}></div>
             </div>
             <div className="designBodyLeader">
 
