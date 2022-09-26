@@ -4,7 +4,7 @@
 
 ## Como Usar
 
-- Para utilizar el forntend tendremos que primero clonarnos el respositorio.
+- Para utilizar el forntend tendremos que primero clonarnos el repositorio.
 
 - Una vez clonado accederemos a la terminal y ejecutaremos el comando "npm install" para instalar las dependencias locales de "node_modules"
 
@@ -14,4 +14,4 @@
 
 
 
-Pd: ante cualquier problema no dude en ponerse en contacto conmigo : andreu.martinez.garcia.1992@gmail.com
+PD: ante cualquier problema no dude en ponerse en contacto conmigo: andreu.martinez.garcia.1992@gmail.com
